@@ -1,0 +1,19 @@
+{% extends 'board/base.html' %}
+{% load crispy_forms_tags %}
+{% block title %} Update account {% endblock title %}
+{% block breadcrumb %}
+<ol class="breadcrumb my-4">
+    <li class="breadcrumb-item"><a href="{% url 'board:home' %}">Boards</a></li>
+    <li class="breadcrumb-item active">Update Account</li>
+</ol>
+{% endblock breadcrumb %}
+
+{% block content %}
+
+<form action="." method="POST">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <input type="submit" value="Submit">
+</form>
+
+{% endblock content %}

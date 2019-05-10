@@ -1,0 +1,54 @@
+body{
+    background-image: url("../img/funky-lines.png");
+}
+
+.accountform{
+    position: absolute;
+    width: 35vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 7px #ececec;
+    border-radius: 7px 7px 0 0;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.accountform h4{
+    padding: 12px;
+    color: #ccc;
+    background-color: rgb(117, 183, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 7px 7px 0 0;
+    border-top: 2px solid #494141;
+    border-left: 2px solid #3b3939;
+    box-shadow: inset 0 0 1px #3b3939;
+    
+}
+
+
+.bg-signup{
+    background-color: #f3f3f3;
+    margin: 10px -10px -10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.alert ul{
+    margin: 0;
+    padding:0;
+}
+
+.err{
+    padding-left: 12px;
+}
+
+
+.password_reset{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
